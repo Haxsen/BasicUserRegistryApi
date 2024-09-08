@@ -5,8 +5,13 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllers();
+string connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
+if (connectionString == null || connectionString.Equals(""))
+{
+    connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+}
 builder.Services.AddDbContext<UserRegistryContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(connectionString));
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", builder =>
