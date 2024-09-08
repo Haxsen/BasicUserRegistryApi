@@ -2452,11 +2452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj",
+      "projectUniqueName": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj",
       "projectName": "UserRegistryApi",
-      "projectPath": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj",
+      "projectPath": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj",
       "packagesPath": "C:\\Users\\TheHxn\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi\\obj\\",
+      "outputPath": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TheHxn\\AppData\\Roaming\\NuGet\\NuGet.Config",

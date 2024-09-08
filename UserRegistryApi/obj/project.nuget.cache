@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V0nMVff9SqQ=",
+  "dgSpecHash": "0sKyzUHGg3Q=",
   "success": true,
-  "projectFilePath": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj",
+  "projectFilePath": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TheHxn\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\8.0.8\\microsoft.aspnetcore.mvc.testing.8.0.8.nupkg.sha512",
     "C:\\Users\\TheHxn\\.nuget\\packages\\microsoft.aspnetcore.testhost\\8.0.8\\microsoft.aspnetcore.testhost.8.0.8.nupkg.sha512",

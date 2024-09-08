@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wP6hzo/tPNo=",
+  "dgSpecHash": "DrbsLkt20t4=",
   "success": true,
-  "projectFilePath": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi.Tests\\UserRegistryApi.Tests.csproj",
+  "projectFilePath": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi.Tests\\UserRegistryApi.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TheHxn\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\TheHxn\\.nuget\\packages\\microsoft.aspnetcore.mvc.testing\\8.0.8\\microsoft.aspnetcore.mvc.testing.8.0.8.nupkg.sha512",

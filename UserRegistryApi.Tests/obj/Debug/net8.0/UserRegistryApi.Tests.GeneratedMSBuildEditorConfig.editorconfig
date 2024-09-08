@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UserRegistryApi.Tests
-build_property.ProjectDir = E:\Work\dotnetProjs\UserRegistryApi\UserRegistryApi.Tests\
+build_property.ProjectDir = E:\Work\Fullstack+Devops\BasicUserRegistryApi\UserRegistryApi.Tests\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -3214,11 +3214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi.Tests\\UserRegistryApi.Tests.csproj",
+      "projectUniqueName": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi.Tests\\UserRegistryApi.Tests.csproj",
       "projectName": "UserRegistryApi.Tests",
-      "projectPath": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi.Tests\\UserRegistryApi.Tests.csproj",
+      "projectPath": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi.Tests\\UserRegistryApi.Tests.csproj",
       "packagesPath": "C:\\Users\\TheHxn\\.nuget\\packages\\",
-      "outputPath": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi.Tests\\obj\\",
+      "outputPath": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TheHxn\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3236,8 +3236,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj": {
-              "projectPath": "E:\\Work\\dotnetProjs\\UserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj"
+            "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj": {
+              "projectPath": "E:\\Work\\Fullstack+Devops\\BasicUserRegistryApi\\UserRegistryApi\\UserRegistryApi.csproj"
             }
           }
         }
