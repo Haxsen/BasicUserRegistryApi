@@ -9,7 +9,7 @@ namespace UserRegistryApi.Controllers
         [HttpGet]
         public string Index()
         {
-            return $"Welcome to the User Registry API!\nDBENV: {Environment.GetEnvironmentVariable("DATABASE_URL")}";
+            return $"Welcome to the User Registry API!, ENV1: {Environment.GetEnvironmentVariable("ENV1")}, DBENV: {Environment.GetEnvironmentVariable("DATABASE_URL")}";
         }
     }
 }
