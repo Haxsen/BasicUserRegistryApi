@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 string connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
+Console.WriteLine($"connectionString: {connectionString}, connectionString == null: {connectionString == null}, connectionString.Equals(\"\") {connectionString.Equals("")}");
 if (connectionString == null || connectionString.Equals(""))
 {
     connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
