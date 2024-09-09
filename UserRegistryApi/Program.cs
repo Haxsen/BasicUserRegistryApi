@@ -6,11 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 string connectionString = Environment.GetEnvironmentVariable("DATABASE_URL");
-Console.WriteLine($"connectionString: {connectionString}, connectionString == null: {connectionString == null}, connectionString.Equals(\"\") {connectionString.Equals("")}");
 if (connectionString == null || connectionString.Equals(""))
 {
     connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 }
+Console.WriteLine($"---[DEBUG]--- connectionString: {connectionString}, connectionString == null: {connectionString == null}, connectionString.Equals(\"\") {connectionString.Equals("")}");
 builder.Services.AddDbContext<UserRegistryContext>(options =>
     options.UseNpgsql(connectionString));
 builder.Services.AddCors(options =>
@@ -22,6 +22,7 @@ builder.Services.AddCors(options =>
             .AllowAnyHeader();
     });
 });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

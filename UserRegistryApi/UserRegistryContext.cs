@@ -17,10 +17,9 @@ namespace UserRegistryApi
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            Console.WriteLine($"---[DEBUG]--- useInMemory: {_useInMemory}");
             if (_useInMemory)
                 optionsBuilder.UseInMemoryDatabase("TestDatabase");
-            else
-                optionsBuilder.UseNpgsql("Host=localhost;Database=user_registry;Username=postgres;Password=hxn");
         }
     }
 }
